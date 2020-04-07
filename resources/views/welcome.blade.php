@@ -68,31 +68,28 @@
                     <div id="mainMenu-trigger"> <a class="lines-button x"><span class="lines"></span></a> </div>
 
 
-                    <div id="mainMenu">
+                    <div id="mainMenu" class="menu-onclick menu-lines">
                         <div class="container">
                             <nav>
                                 <ul>
                                     <li class="dropdown"><a href="#">Hosting</a>
                                         <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">Hosting</a>
+                                            <li><a href="#">Cloud Hosting</a>
                                             </li>
+                                            <li><a href="#">Shared Web Hosting</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="#">Domain</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">Cek Domain</a>
-                                            </li>
-                                        </ul>
                                     </li>
                                     <li class="dropdown"><a href="#">Layanan</a>
                                         <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">Hosting</a>
+                                            <li><a href="#">Hosting</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="#">Afiliasi</a>
                                         <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">Hosting</a>
+                                            <li><a href="#">Hosting</a>
                                             </li>
                                         </ul>
                                     </li>
