@@ -4,19 +4,22 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="INSPIRO" />
-    <meta name="description" content="Themeforest Template Polo, html template">
+    <meta name="author" content="Sarjanaku" />
+    <meta name="description" content="Web hosting Indonesia termurah dan terbaik.">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>POLO | The Multi-Purpose HTML5 Template</title>
+    <title>Sarjanaku</title>
 
-    <link href="css/plugins.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{!!asset('css/plugins.css')!!}" rel="stylesheet">
+    <link href="{!!asset('css/style.css')!!}" rel="stylesheet">
+    <link rel="shortcut icon"
+        href="{!!url('https://res.cloudinary.com/sarjanamalam/image/upload/v1586243803/Sarjanaku/based/icon_owwtuf.png')!!}"
+        type="image/x-icon">
+    <link href="{!!asset('css/color-variations/light.css')!!}" rel="stylesheet" type="text/css" media="screen">
 
-    <link href="css/color-variations/brown-light.css" rel="stylesheet" type="text/css" media="screen">
-
-    <link rel="stylesheet" type="text/css" href="homepages/hotel/css/hotel-style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{!!asset('homepages/sarjanaku/css/sarjanaku-style.css')!!}"
+        media="screen" />
 </head>
 
 <body>
@@ -29,10 +32,10 @@
                     <div class="col-md-6">
                         <ul class="top-menu">
                             <li><a href="#">Phone: +1 (234) 567-890</a></li>
-                            <li><a href="#">Email: contact@inspiro-media.com</a></li>
+                            <li><a href="#">Email: ask@sarjanaku.com</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-6 d-none d-sm-block">
+                    {{-- <div class="col-md-6 d-none d-sm-block">
                         <div class="social-icons social-icons-colored-hover">
                             <ul>
                                 <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -46,7 +49,7 @@
                                 <li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -56,33 +59,11 @@
             <div class="header-inner">
                 <div class="container">
 
-                    <div id="logo"> <a href="index.html"><span class="logo-default">POLO</span><span
-                                class="logo-dark">POLO</span></a> </div>
-
-
-                    <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i
-                                class="icon-x"></i></a>
-                        <form class="search-form" action="search-results-page.html" method="get">
-                            <input class="form-control" name="q" type="text" placeholder="Type & Search..." />
-                            <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
-                        </form>
-                    </div>
-
-                    <div class="header-extras">
-                        <ul>
-                            <li> <a id="btn-search" href="#"> <i class="icon-search"></i></a> </li>
-                            <li>
-                                <div class="p-dropdown"> <a href="#"><i class="icon-globe"></i><span>EN</span></a>
-                                    <ul class="p-dropdown-content">
-                                        <li><a href="#">French</a></li>
-                                        <li><a href="#">Spanish</a></li>
-                                        <li><a href="#">English</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
+                    <div id="logo"> <a href="/"><span class="logo-default"><img
+                                    src="https://res.cloudinary.com/sarjanamalam/image/upload/v1586250377/Sarjanaku/based/logo-fix_zl97aw.png"
+                                    alt=""></span><span class="logo-dark"><img
+                                    src="https://res.cloudinary.com/sarjanamalam/image/upload/v1586253334/Sarjanaku/based/logo-fix-white_rms7d1.png"
+                                    alt=""></span></a> </div>
 
                     <div id="mainMenu-trigger"> <a class="lines-button x"><span class="lines"></span></a> </div>
 
@@ -91,19 +72,32 @@
                         <div class="container">
                             <nav>
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="dropdown"><a href="#">Layout</a>
+                                    <li class="dropdown"><a href="#">Hosting</a>
                                         <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">Topbar</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="header-topbar.html">Light</a></li>
-                                                    <li><a href="header-topbar-dark.html">Dark</a></li>
-                                                    <li><a href="header-topbar-transparent.html">Transparent</a></li>
-                                                    <li><a href="header-topbar-colored.html">Colored</a></li>
-                                                    <li><a href="header-topbar-fullwidth.html">Fullwidth</a></li>
-                                                </ul>
+                                            <li class="dropdown-submenu"><a href="#">Hosting</a>
                                             </li>
                                         </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Domain</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu"><a href="#">Cek Domain</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Layanan</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu"><a href="#">Hosting</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Afiliasi</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu"><a href="#">Hosting</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#" class="btn btn-outline-primary">
+                                            Login Member</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -118,7 +112,8 @@
         <div id="slider" class="inspiro-slider dots-creative" data-height-xs="360" data-autoplay="2600"
             data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1" data-loop="true" data-autoplay="true">
 
-            <div class="slide" data-bg-image="homepages/hotel/images/1.jpg">
+            <div class="slide"
+                data-bg-image="https://res.cloudinary.com/sarjanamalam/image/upload/v1586253210/Sarjanaku/based/web-1_tsguoc.jpg">
                 <div class="bg-overlay"></div>
                 <div class="container">
                     <div class="slide-captions">
@@ -131,7 +126,8 @@
             </div>
 
 
-            <div class="slide" data-bg-image="homepages/hotel/images/2.jpg">
+            <div class="slide"
+                data-bg-image="https://res.cloudinary.com/sarjanamalam/image/upload/v1586253210/Sarjanaku/based/web-2_rbnx9u.jpg">
                 <div class="bg-overlay"></div>
                 <div class="container">
                     <div class="slide-captions">
@@ -707,19 +703,19 @@
 
     <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/plugins.js"></script>
+    <script src="{!!asset('js/jquery.js')!!}"></script>
+    <script src="{!!asset('js/plugins.js')!!}"></script>
 
-    <script src="js/functions.js"></script>
+    <script src="{!!asset('js/functions.js')!!}"></script>
 
     <script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyAZIus-_huNW25Jl7RPmHgoGZjD5udgBMI'>
     </script>
-    <script type="text/javascript" src="plugins/gmap3/gmap3.min.js"></script>
-    <script type="text/javascript" src="plugins/gmap3/map-styles.js"></script>
+    <script type="text/javascript" src="{!!asset('plugins/gmap3/gmap3.min.js')!!}"></script>
+    <script type="text/javascript" src="{!!asset('plugins/gmap3/map-styles.js')!!}"></script>
 
-    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css" type="text/css" />
-    <script src="plugins/moment/moment.min.js"></script>
-    <script src="plugins/daterangepicker/daterangepicker.js"></script>
+    <link rel="stylesheet" href="{!!asset('plugins/daterangepicker/daterangepicker.css')!!}" type="text/css" />
+    <script src="{!!asset('plugins/moment/moment.min.js')!!}"></script>
+    <script src="{!!asset('plugins/daterangepicker/daterangepicker.js')!!}"></script>
 
     <script>
         $(function () {
